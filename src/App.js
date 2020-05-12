@@ -1,12 +1,12 @@
 import React from "react";
-import Card from "./Components/Card";
+import CardList from "./Components/CardList";
 import "./App.css";
 
 function App() {
   return (
     <div>
       <div className="header">The GitHub Cards App</div>
-      <Card />
+      <CardList />
     </div>
   );
 }
